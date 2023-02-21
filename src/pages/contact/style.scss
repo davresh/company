@@ -1,0 +1,43 @@
+@import '../../assets/style/varible.scss';
+@import '../../assets/style/mixin.scss';
+.contact-page{
+    width: 100%;
+    p{
+        padding: 20px 0;
+    }
+    .contact-inputs-box{
+        width: 100%;
+        .input-box{
+            width: 100%;
+            input,textarea{
+                border: none;
+                width: 100%;
+                outline: 0;
+                font-size: 20px;
+                padding: 10px 5px;
+                border-radius: 5px;
+                border: 2px solid #ccc;
+                margin:5px 0 15px 0 ;
+            }
+            textarea{
+                height: 200px;
+            }
+            button{
+                border: 0;
+                width: 100%;
+                font-size: 18px;
+                padding: 15px 0;
+                color: white;
+                background-color: $logo;
+                cursor: pointer;
+                &:hover{
+                    color: black;
+                    background-color: #ccc;
+                }
+            }
+            .erorr-input{
+                border: 2px solid red;
+            }
+        }
+    }
+}

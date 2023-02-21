@@ -1,0 +1,17 @@
+@import '../../assets/style/mixin.scss';
+@import '../../assets/style/varible.scss';
+.showcase-image-block{
+    width: calc(50% - 10px);
+    margin: 5px 0;
+    opacity: 0.8;
+    @include screen(600px){
+        width: 100%;
+    }
+    cursor: pointer;
+    img{
+        width: 100%;
+    }
+    &:hover{
+        opacity: 1;
+    }
+}

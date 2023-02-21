@@ -1,0 +1,14 @@
+@import '../../assets/style/varible.scss';
+@import '../../assets/style/mixin.scss';
+.designer-page{
+    width: 100%;
+    p{
+        margin: 15px 0;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    .disigner-blocks{
+        @include flex(100%,space-between);
+        margin: 15px 0;
+    }
+}

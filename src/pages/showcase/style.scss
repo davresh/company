@@ -1,0 +1,16 @@
+@import '../../assets/style/varible.scss';
+@import '../../assets/style/mixin.scss';
+.showcase-page{
+    width: 100%;
+    padding: 100px 0 0 0 ;
+    .showcase-text{
+        width: 100%;
+        .site-name{
+            font-size: 50px;
+        }
+    }
+    .showcase-images{
+        @include flex(100%,space-between);
+        margin-top: 40px;
+    }
+}

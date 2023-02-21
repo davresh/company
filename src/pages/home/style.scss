@@ -1,0 +1,5 @@
+@import '../../assets/style/varible.scss';
+@import '../../assets/style/mixin.scss';
+.home-page{
+    @include flex(100%,center);
+}

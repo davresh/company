@@ -1,0 +1,13 @@
+@import '../assets/style/varible.scss';
+@import '../assets/style/mixin.scss';
+.container{
+    @include flex(100%,space-between);
+    .container-right{
+        @include flex(73%,center);
+        padding-right: 20px;
+        @include screen(993px){
+            width: 100%;
+            padding: 0 20px;
+        }
+    }
+}

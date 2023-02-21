@@ -1,0 +1,17 @@
+@import '../../assets/style/varible.scss';
+@import '../../assets/style/mixin.scss';
+footer{
+    width: 100%;
+    background-color: #F1F1F1;
+    text-align: end;
+    padding: 40px 20px;
+    margin-top: 30px;
+    @include screen(993px){
+        text-align: center;
+    }
+    p{
+        a{
+            color: black;
+        }
+    }
+}

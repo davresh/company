@@ -1,0 +1,11 @@
+@mixin screen($wid){
+    @media (max-width:$wid){
+        @content;
+    };
+};
+@mixin flex($len,$pos){
+    width: $len;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $pos;
+}

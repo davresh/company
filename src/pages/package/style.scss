@@ -1,0 +1,13 @@
+@import '../../assets/style/varible.scss';
+@import '../../assets/style/mixin.scss';
+.package-page{
+    width: 100%;
+    p{
+        margin: 15px 0;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    .package-blocks{
+        @include flex(100%,space-between);
+    }
+}
