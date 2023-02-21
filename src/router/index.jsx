@@ -117,7 +117,7 @@ function Router(){
                 <Header/>
                     <div className='container-right'>
                     <Routes>
-                        <Route path='/' index element={<Home/>} />
+                        <Route path='/company' index element={<Home/>} />
                         <Route path='/showcase' element={<Showcase/>} />
                         <Route path='/services' element={<Service/>} />
                         <Route path='/designers' element={<Designer/>} />
