@@ -72,12 +72,12 @@ function Header(){
                         barRef.current.classList.remove('log-w993');
                     }}>X</span>
                     <li className="link-page"><h1>Company Name</h1></li>
-                    <li className="link-page"><NavLink to='/company'>Home</NavLink></li>
-                    <li className="link-page"><NavLink to='/showcase'>Showcase</NavLink></li>
-                    <li className="link-page"><NavLink to='/services'>Services</NavLink></li>
-                    <li className="link-page"><NavLink to='/designers'>Designers</NavLink></li>
-                    <li className="link-page"><NavLink to='/packages'>Packages</NavLink></li>
-                    <li className="link-page"><NavLink to='/contact'>Contact</NavLink></li>
+                    <li className="link-page"><NavLink to='company'>Home</NavLink></li>
+                    <li className="link-page"><NavLink to='showcase'>Showcase</NavLink></li>
+                    <li className="link-page"><NavLink to='services'>Services</NavLink></li>
+                    <li className="link-page"><NavLink to='designers'>Designers</NavLink></li>
+                    <li className="link-page"><NavLink to='packages'>Packages</NavLink></li>
+                    <li className="link-page"><NavLink to='contact'>Contact</NavLink></li>
                 </ul>
             </div>
             <a href="#home" className='to-top-btn' 
